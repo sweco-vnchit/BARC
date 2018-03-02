@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -26,3 +27,11 @@ kramdown:
 
 plugins_dir:
   - jekyll-seo-tag
+=======
+title:
+description:
+show_downloads:
+google_analytics:
+theme: jekyll-theme-minimal
+favicon: ./ico/Blogo.ico
+>>>>>>> a690c5c89d16c653f0199e3086890cf30708c69b
