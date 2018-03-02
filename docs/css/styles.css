@@ -131,7 +131,8 @@ img {
 
 img.logo {
      width: 180px;
-     margin-left: 60px;
+#     margin-left: 60px;
+     margin-left: 50%;
      margin-bottom: -20px;
 }
 
