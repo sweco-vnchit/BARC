@@ -1,4 +1,4 @@
-![Logo](./docs/images/Blogo.png)
+![Logo](./docs/Blogo.svg)
 
 Issues Collectors for BARC | 2017, 2018
 
