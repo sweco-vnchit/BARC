@@ -6,15 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: pyRevit blog
-email: eirannejad@gmail.com
+title: BARC|Boydens Architech Model
+email: chinh.trieutien@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  IronPython scripts for Autodesk Revit
-baseurl: "/pyRevit" # the subpath of your site, e.g. /blog
-url: "http://eirannejad.github.io" # the base hostname & protocol for your site
-twitter:
-  username: eirannejad
-github_username:  eirannejad
+  Boydens Architech Model with Autodesk Revit for BIM
+baseurl: "/BARC" # the subpath of your site, e.g. /blog
+url: "http://chinh-trieutien.github.io" # the base hostname & protocol for your site
+#twitter:
+#  username: 
+github_username:  chinh-trieutien
 
 # Build settings
 markdown: kramdown
