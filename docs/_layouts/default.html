@@ -14,49 +14,49 @@
 
         <p>{{ site.description }}</p>
 
-        <ul class="main">
-          <li>
-            <a href="https://github.com/eirannejad/pyRevit/releases/download/v4.5/pyRevitSetup-v45.exe">
-              Download <strong>Installer</strong>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/channel/UC-0THIvKRd6n7T2a5aKYaGg">
-              Watch<br/><strong>Tutorials</strong>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.patreon.com/pyrevit">
-              Become a<br/><strong>Patron</strong>
-            </a>
-          </li>
-        </ul>
+#        <ul class="main">
+#          <li>
+#            <a href="https://github.com/eirannejad/pyRevit/releases/download/v4.5/pyRevitSetup-v45.exe">
+#              Download <strong>Installer</strong>
+#            </a>
+#          </li>
+#          <li>
+#            <a href="https://www.youtube.com/channel/UC-0THIvKRd6n7T2a5aKYaGg">
+#              Watch<br/><strong>Tutorials</strong>
+#            </a>
+#          </li>
+#          <li>
+#            <a href="https://www.patreon.com/pyrevit">
+#              Become a<br/><strong>Patron</strong>
+#            </a>
+#          </li>
+#        </ul>
 
         <ul>
+#         <li>
+#            <a href="http://pyrevit.readthedocs.io">
+#              Read the<br/><strong>Docs</strong>
+#            </a>
+#          </li>
           <li>
-            <a href="http://pyrevit.readthedocs.io">
-              Read the<br/><strong>Docs</strong>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/eirannejad/pyRevit">
+            <a href="https://github.com/chinh-trieutien/BARC">
               View On <strong>GitHub</strong>
             </a>
           </li>
         </ul>
 
-        <div class="trigger">
-          {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <p class="menu-item">
-              <a class="page-link"
-                 href="{{ my_page.url | prepend: site.baseurl }}">
-                 {{ my_page.title }}
-              </a>
-            </p>
-            {% endif %}
-          {% endfor %}
-        </div>
+#        <div class="trigger">
+#          {% for my_page in site.pages %}
+#            {% if my_page.title %}
+#            <p class="menu-item">
+#              <a class="page-link"
+#                 href="{{ my_page.url | prepend: site.baseurl }}">
+#                 {{ my_page.title }}
+#              </a>
+#            </p>
+#            {% endif %}
+#          {% endfor %}
+#        </div>
         <p></p>
       </header>
 
@@ -68,15 +68,15 @@
 
       <footer class="sidebar">
         <p><small>
-          Supported by JetBrains
-          <a href="https://www.jetbrains.com">
-            <img src="{{ "/images/jetbrains_logos/logo-variant-4.svg" | prepend: site.baseurl }}"
-                 width="86px" style="margin-top:-28px;">
-          </a><br>
-          Created by <a href="https://github.com/eirannejad">eirannejad</a>
-          subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a><br>
-          Powered by GitHub Pages and Jekyll<br>
-          Theme by <a href="https://github.com/orderedlist">orderedlist</a> with my mods
+#          Supported by JetBrains
+#          <a href="https://www.jetbrains.com">
+#            <img src="{{ "/images/jetbrains_logos/logo-variant-4.svg" | prepend: site.baseurl }}"
+#                 width="86px" style="margin-top:-28px;">
+#          </a><br>
+          Created by <a href="https://github.com/chinh-trieutien">chinh, trieu tien</a>
+#          subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a><br>
+#          Powered by GitHub Pages and Jekyll<br>
+#          Theme by <a href="https://github.com/orderedlist">orderedlist</a> with my mods
         </small></p>
       </footer>
 
