@@ -10,7 +10,7 @@
 title: BARC
 email: chinh.trieutien@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Boydens Architech Model with Autodesk Revit for BIM
+  Boydens Architech Model for BIM
 baseurl: "/BARC" # the subpath of your site, e.g. /blog
 url: "http://chinh-trieutien.github.io" # the base hostname & protocol for your site
 #twitter:
