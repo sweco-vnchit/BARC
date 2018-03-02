@@ -1,1 +1,1 @@
-[![Logo](./docs/images/Blogo.png)](about.md)
+[![Logo](./images/Blogo.png)](about.md)
