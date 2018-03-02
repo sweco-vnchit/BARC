@@ -1,207 +1,478 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Minimal by Steve Smith</title>
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
+  <title>pyRevit blog</title>
+  <meta name="description" content="IronPython scripts for Autodesk Revit
+">
+
+  <link rel="stylesheet" href="/pyRevit/css/main.css">
+  <link rel="canonical" href="http://eirannejad.github.io/pyRevit/">
+  <link rel="alternate" type="application/rss+xml" title="pyRevit blog" href="http://eirannejad.github.io/pyRevit/feed.xml">
+  <link rel="stylesheet" href="/pyRevit/css/styles.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/pyRevit/favicon.ico">
+  <link rel="apple-touch-icon" sizes="114x114" href="/pyRevit/apple-icon-114x114.png">
+  <!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>pyRevit blog | IronPython scripts for Autodesk Revit</title>
+<meta property="og:title" content="pyRevit blog">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="IronPython scripts for Autodesk Revit">
+<meta property="og:description" content="IronPython scripts for Autodesk Revit">
+<link rel="canonical" href="http://eirannejad.github.io/pyRevit/">
+<meta property="og:url" content="http://eirannejad.github.io/pyRevit/">
+<meta property="og:site_name" content="pyRevit blog">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@eirannejad">
+<script type="application/ld+json">
+{"name":"pyRevit blog","description":"IronPython scripts for Autodesk Revit","author":null,"@type":"WebSite","url":"http://eirannejad.github.io/pyRevit/","image":null,"publisher":null,"headline":"pyRevit blog","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
   <body>
+    <header class="site-header"></header>
     <div class="wrapper">
-      <header>
-        <h1>Minimal</h1>
-        <p>A Theme for GitHub Pages</p>
-        <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub <small>orderedlist/minimal</small></a></p>
-        <ul>
-          <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
+
+      <header class="sidebar">
+
+        <a href="/pyRevit/">
+          <img class="logo" src="/pyRevit/pyRevitLogo.svg">
+        </a>
+        <p><a class="site-title" href="/pyRevit/">pyRevit blog</a></p>
+
+        <p>IronPython scripts for Autodesk Revit
+</p>
+
+        <ul class="main">
+          <li>
+            <a href="https://github.com/eirannejad/pyRevit/releases/download/v4.5/pyRevitSetup-v45.exe">
+              Download <strong>Installer</strong>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UC-0THIvKRd6n7T2a5aKYaGg">
+              Watch<br><strong>Tutorials</strong>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.patreon.com/pyrevit">
+              Become a<br><strong>Patron</strong>
+            </a>
+          </li>
         </ul>
+
+        <ul>
+          <li>
+            <a href="http://pyrevit.readthedocs.io">
+              Read the<br><strong>Docs</strong>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/eirannejad/pyRevit">
+              View On <strong>GitHub</strong>
+            </a>
+          </li>
+        </ul>
+
+        <div class="trigger">
+          
+            
+            <p class="menu-item">
+              <a class="page-link" href="/pyRevit/whatspyrevit/">
+                 What's pyRevit
+              </a>
+            </p>
+            
+          
+            
+            <p class="menu-item">
+              <a class="page-link" href="/pyRevit/installation/">
+                 Installing, Uninstalling
+              </a>
+            </p>
+            
+          
+            
+            <p class="menu-item">
+              <a class="page-link" href="/pyRevit/howtouse/">
+                 Staying updated
+              </a>
+            </p>
+            
+          
+            
+            <p class="menu-item">
+              <a class="page-link" href="/pyRevit/sharingextensions/">
+                 Sharing Extensions
+              </a>
+            </p>
+            
+          
+            
+            <p class="menu-item">
+              <a class="page-link" href="/pyRevit/contribute/">
+                 Contribute
+              </a>
+            </p>
+            
+          
+            
+            <p class="menu-item">
+              <a class="page-link" href="/pyRevit/releasenotes/">
+                 Release Notes
+              </a>
+            </p>
+            
+          
+            
+            <p class="menu-item">
+              <a class="page-link" href="/pyRevit/credits/">
+                 Credits
+              </a>
+            </p>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        </div>
+        <p></p>
       </header>
+
       <section>
-        <h1>GitHub Flavored Markdown</h1>
+        <div class="page-content">
+            <div class="home">
 
-        <p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p>
+  <ul class="post-list">
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/installer/2018/03/01/githubtlschange.html">Installer Error and Github Security Changes</a>
+        </h2>
+        <span class="post-meta">Mar 1, 2018</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2018/02/04/rewardfortool.html">Financial Report and Exciting Announcement</a>
+        </h2>
+        <span class="post-meta">Feb 4, 2018</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2018/01/01/45final.html">pyRevit v4.5</a>
+        </h2>
+        <span class="post-meta">Jan 1, 2018</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/12/02/45rc.html">pyRevit v4.5-rc</a>
+        </h2>
+        <span class="post-meta">Dec 2, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/11/08/45beta.html">SUPER IMPORTANT</a>
+        </h2>
+        <span class="post-meta">Nov 8, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/11/05/Shhhhh.html">Shhhhh</a>
+        </h2>
+        <span class="post-meta">Nov 5, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/extension/2017/10/21/libextensions-copy.html">pyRevit Library Extensions</a>
+        </h2>
+        <span class="post-meta">Oct 21, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/10/21/45roadmap.html">pyRevit 4.5 Road Map</a>
+        </h2>
+        <span class="post-meta">Oct 21, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/10/14/configupdate.html">pyRevit Seed Config</a>
+        </h2>
+        <span class="post-meta">Oct 14, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/extension/2017/08/13/managingextensions.html">Managing pyRevit Extensions</a>
+        </h2>
+        <span class="post-meta">Aug 13, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/08/05/installerupdate.html">Installer update</a>
+        </h2>
+        <span class="post-meta">Aug 5, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/07/04/pyrevitfourfour.html">pyRevit v4.4</a>
+        </h2>
+        <span class="post-meta">Jul 4, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/05/17/nestedgroupsupdate.html">Show Nested Groups Update</a>
+        </h2>
+        <span class="post-meta">May 17, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/pycon/2017/05/16/pyconandpatrons.html">pyCon, YouTube and Patreon</a>
+        </h2>
+        <span class="post-meta">May 16, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/video/2017/04/26/pdxrugpresentation.html">pdxRUG Presentation</a>
+        </h2>
+        <span class="post-meta">Apr 26, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/04/01/revitutilsimprovements.html">revitutils loves RPW</a>
+        </h2>
+        <span class="post-meta">Apr 1, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/04/01/pyrevitfourthree.html">pyRevit v4.3</a>
+        </h2>
+        <span class="post-meta">Apr 1, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/03/25/imminentupdate.html">Important: Upcoming core update</a>
+        </h2>
+        <span class="post-meta">Mar 25, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/03/25/standardforms.html">Fancy forms for your scripts</a>
+        </h2>
+        <span class="post-meta">Mar 25, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/03/22/moretools.html">Two more productivity tools</a>
+        </h2>
+        <span class="post-meta">Mar 22, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/03/18/pyrevitweeklyunstable.html">pyRevit unstable branch or how I learned to love unittest</a>
+        </h2>
+        <span class="post-meta">Mar 18, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/03/11/pyrevitfourtwo.html">pyRevit v4.2</a>
+        </h2>
+        <span class="post-meta">Mar 11, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/03/07/charts.html">Charts for pyRevit</a>
+        </h2>
+        <span class="post-meta">Mar 7, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/03/04/patternmaker.html">Pattern Maker for Revit</a>
+        </h2>
+        <span class="post-meta">Mar 4, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/02/16/logviewer.html">pyRevit Log Viewer</a>
+        </h2>
+        <span class="post-meta">Feb 16, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/output/2017/02/11/progressbar.html">Viva progress bars</a>
+        </h2>
+        <span class="post-meta">Feb 11, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/output/2017/02/11/linkify.html">Output Window Improvements</a>
+        </h2>
+        <span class="post-meta">Feb 11, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/01/26/sheetincrement.html">Increment/Decrement Sheet Number</a>
+        </h2>
+        <span class="post-meta">Jan 26, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/01/26/orderedprintupdate.html">Updates to print tool</a>
+        </h2>
+        <span class="post-meta">Jan 26, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/01/21/miscchanges.html">New print tool and Weekly change report</a>
+        </h2>
+        <span class="post-meta">Jan 21, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/01/17/coredocs.html">Core Documentation: Lots of Docs</a>
+        </h2>
+        <span class="post-meta">Jan 17, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/01/17/extensions.html">Extension Packages and v4.1</a>
+        </h2>
+        <span class="post-meta">Jan 17, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/01/14/community.html">Let's Huddle</a>
+        </h2>
+        <span class="post-meta">Jan 14, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/01/10/addedscriptanatomy.html">Added Anatomy of a Script page</a>
+        </h2>
+        <span class="post-meta">Jan 10, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/01/10/updatedAbout.html">What's pyRevit page updated</a>
+        </h2>
+        <span class="post-meta">Jan 10, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2017/01/05/Newloader.html">Version 4 is available to download</a>
+        </h2>
+        <span class="post-meta">Jan 5, 2017</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2016/12/30/lotsofchanges.html">Straight to 4! Lots of changes coming up...</a>
+        </h2>
+        <span class="post-meta">Dec 30, 2016</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2016/09/09/verthreebetaisout.html">Version 3 Beta is out!</a>
+        </h2>
+        <span class="post-meta">Sep 9, 2016</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2016/08/21/moreupdates.html">More Updates on v3</a>
+        </h2>
+        <span class="post-meta">Aug 21, 2016</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/2016/08/16/whypython.html">Why python?</a>
+        </h2>
+        <span class="post-meta">Aug 16, 2016</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2016/08/16/semantic-versioning.html">Semantic Versioning and pyRevit v3</a>
+        </h2>
+        <span class="post-meta">Aug 16, 2016</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2016/08/12/copypasteviewporttools.html">Copy/Paste Viewport placement tools</a>
+        </h2>
+        <span class="post-meta">Aug 12, 2016</span>
+      </li>
+    
+      <li>
+        <h2>
+          <a class="post-link" href="/pyRevit/pyrevit/update/2016/07/23/welcome-to-pyrevit.html">First post: Welcome!</a>
+        </h2>
+        <span class="post-meta">Jul 23, 2016</span>
+      </li>
+    
+  </ul>
+</div>
 
-        <p>Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:</p>
-
-        <p>Roses are red<br>
-        Violets are blue</p>
-
-        <p>The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:</p>
-
-        <p>Roses are red<br><br>
-        Violets are blue</p>
-
-        <p>Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.</p>
-
-        <h2>A bit of the GitHub spice</h2>
-
-        <p>In addition to the changes in the previous section, certain references are auto-linked:</p>
-
-        <ul>
-          <li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
-          <li>User@SHA ref: <a href="https://github.com/mojombo/product/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo@<tt>be6a8cc</tt></a></li>
-          <li>User/Project@SHA: <a href="https://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo/god@<tt>be6a8cc</tt></a></li>
-          <li>#Num: <a href="https://github.com/github/product/issues/1" class="issue-link" title="Baseline: What is up in the air right now?">#1</a></li>
-          <li>User/#Num: mojombo#1</li>
-          <li>User/Project#Num: <a href="https://github.com/mojombo/god/issues/1" class="issue-link" title="The server is not available (or you do not have permissions to access it)">mojombo/god#1</a></li>
-        </ul>
-
-        <p>These are dangerous goodies though, and we need to make sure email addresses don't get mangled:</p>
-
-        <p>My email addy is <a href="mailto:tom@github.com">tom@github.com</a>.</p>
-
-        <h2>Math is hard, let's go shopping</h2>
-
-        <p>In first grade I learned that 5 &gt; 3 and 2 &lt; 7. Maybe some arrows. 1 -&gt; 2 -&gt; 3. 9 &lt;- 8 &lt;- 7.</p>
-
-        <p>Triangles man! a^2 + b^2 = c^2</p>
-
-        <h2>We all like making lists</h2>
-
-        <p>The above header should be an H2 tag. Now, for a list of fruits:</p>
-
-        <ul>
-          <li>Red Apples</li>
-          <li>Purple Grapes</li>
-          <li>Green Kiwifruits</li>
-        </ul>
-
-        <p>Let's get crazy:</p>
-
-        <ol>
-          <li>
-            <p>This is a list item with two paragraphs. Lorem ipsum dolor<br>
-            sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br>
-            mi posuere lectus.</p>
-
-            <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>
-            vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>
-            sit amet velit.</p>
-          </li>
-          <li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
-        </ol>
-
-        <p>What about some code <strong>in</strong> a list? That's insane, right?</p>
-
-        <ol>
-          <li>
-            <p>In Ruby you can map like this:</p>
-
-            <pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre>
-          </li>
-          <li>
-            <p>In Rails, you can do a shortcut:</p>
-
-            <pre><code>['a', 'b'].map(&amp;:uppercase)</code></pre>
-          </li>
-        </ol>
-
-        <p>Some people seem to like definition lists</p>
-
-        <dl>
-          <dt>Lower cost</dt>
-          <dd>The new version of this product costs significantly less than the previous one!</dd>
-          <dt>Easier to use</dt>
-          <dd>We've changed the product so that it's much easier to use!</dd>
-        </dl>
-
-        <h2>I am a robot</h2>
-
-        <p>Maybe you want to print <code>robot</code> to the console 1000 times. Why not?</p>
-
-        <pre><code>def robot_invasion
-  puts("robot " * 1000)
-end
-</code></pre>
-
-        <p>You see, that was formatted as code because it's been indented by four spaces.</p>
-
-        <p>How about we throw some angle braces and ampersands in there?</p>
-
-        <pre><code>&lt;div class="footer"&gt;
-    &amp;copy; 2004 Foo Corporation
-&lt;/div&gt;
-</code></pre>
-
-        <h2>Set in stone</h2>
-
-        <p>Preformatted blocks are useful for ASCII art:</p>
-
-        <pre>             ,-.
-    ,     ,-.   ,-.
-   / \   (   )-(   )
-   \ |  ,.&gt;-(   )-&lt;
-    \|,' (   )-(   )
-     Y ___`-'   `-'
-     |/__/   `-'
-     |
-     |
-     |    -hrr-
-  ___|_____________
-</pre>
-
-        <h2>Playing the blame game</h2>
-
-        <p>If you need to blame someone, the best way to do so is by quoting them:</p>
-
-        <blockquote>
-        <p>I, at any rate, am convinced that He does not throw dice.</p>
-        </blockquote>
-
-        <p>Or perhaps someone a little less eloquent:</p>
-
-        <blockquote>
-        <p>I wish you'd have given me this written question ahead of time so I<br>
-        could plan for it... I'm sure something will pop into my head here in<br>
-        the midst of this press conference, with all the pressure of trying to<br>
-        come up with answer, but it hadn't yet...</p>
-
-        <p>I don't want to sound like<br>
-        I have made no mistakes. I'm confident I have. I just haven't - you<br>
-        just put me under the spot here, and maybe I'm not as quick on my feet<br>
-        as I should be in coming up with one.</p>
-        </blockquote>
-
-        <h2>Table for two</h2>
-
-        <table>
-          <tbody>
-        <tr>
-            <th>ID</th>
-        <th>Name</th>
-        <th>Rank</th>
-          </tr>
-          <tr>
-            <td>1</td>
-        <td>Tom Preston-Werner</td>
-        <td>Awesome</td>
-          </tr>
-          <tr>
-            <td>2</td>
-        <td>Albert Einstein</td>
-        <td>Nearly as awesome</td>
-          </tr>
-        </tbody>
-        </table>
-
-        <h2>Crazy linking action</h2>
-
-        <p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from<br>
-        <a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
+        </div>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="http://github.com/orderedlist">Steve Smith</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+
+      <footer class="sidebar">
+        <p><small>
+          Supported by JetBrains
+          <a href="https://www.jetbrains.com">
+            <img src="/pyRevit/images/jetbrains_logos/logo-variant-4.svg" width="86px" style="margin-top:-28px;">
+          </a><br>
+          Created by <a href="https://github.com/eirannejad">eirannejad</a>
+          subscribe <a href="/pyRevit/feed.xml">via RSS</a><br>
+          Powered by GitHub Pages and Jekyll<br>
+          Theme by <a href="https://github.com/orderedlist">orderedlist</a> with my mods
+        </small></p>
       </footer>
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-  </body>
-</html>
+  
+
+</body></html>
