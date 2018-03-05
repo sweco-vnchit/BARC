@@ -1,4 +1,4 @@
-![Logo](./docs/Blogo.svg)
+[![Logo](./docs/Blogo.svg)](https://chinh-trieutien.github.io/BARC/)
 
 Issues Collectors for BARC | 2017, 2018
 
